@@ -1,0 +1,2 @@
+com\example\CLI\CliApplication.class
+com\example\CLI\commands\HelloCommand.class
