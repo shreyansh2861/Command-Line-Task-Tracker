@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @ShellComponent
 public class ListTask {
-    final File file = new File("C:/Users/shrey/IdeaProjects/Spring-and-Sprinboot/CLI/src/main/resources/tasks.json");
+    final File file = new File("tasks file location");
 
     public void printTask(JsonNode task){
         System.out.println("Id          : "+task.get("id").asText());

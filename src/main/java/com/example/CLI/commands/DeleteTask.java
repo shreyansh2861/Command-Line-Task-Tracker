@@ -17,7 +17,7 @@ import java.util.Arrays;
 @ShellComponent
 public class DeleteTask {
 
-    final File file = new File("C:/Users/shrey/IdeaProjects/Spring-and-Sprinboot/CLI/src/main/resources/tasks.json");
+    final File file = new File("tasks file location");
     public Id idHelper =  new Id();
 
     public JsonNode resetIds(JsonNode rootNode, JsonNode tasksNode){

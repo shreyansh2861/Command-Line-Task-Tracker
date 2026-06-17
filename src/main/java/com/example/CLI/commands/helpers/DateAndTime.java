@@ -8,8 +8,6 @@ public class DateAndTime {
     public DateAndTime(){
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-
         current = now.format(formatter);
-
     }
 }

@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Id {
-    final File latestIdFile = new File("src/main/resources/latestId.json");
+    final File latestIdFile = new File("Id file location");
 
     public Integer getId(JsonNode tasksNode) throws IOException {
         if (tasksNode == null || !tasksNode.isArray() || tasksNode.isEmpty()) {

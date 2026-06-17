@@ -19,7 +19,7 @@ import com.example.CLI.commands.helpers.Id.*;
 @ShellComponent
 public class AddTask {
 
-    final File file = new File("C:/Users/shrey/IdeaProjects/Spring-and-Sprinboot/CLI/src/main/resources/tasks.json");
+    final File file = new File("tasks file loation");
     public Id helperId = new Id();
     public DateAndTime dnt = new DateAndTime();
 
